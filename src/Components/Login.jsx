@@ -1,4 +1,4 @@
-import React from 'react'
+import { FaUser, FaLock } from "react-icons/fa";
 
 const Login = () => {
   return (
@@ -7,6 +7,7 @@ const Login = () => {
             <h1>Acesse o sistema</h1>
             <div>
                 <input type="email" placeholder="E-mail"/>
+                <FaUser className="icon" />
             </div>
             <div>
                 <input type="password" placeholder="Senha" />
