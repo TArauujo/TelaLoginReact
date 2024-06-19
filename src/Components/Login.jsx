@@ -11,6 +11,7 @@ const Login = () => {
             </div>
             <div>
                 <input type="password" placeholder="Senha" />
+                <FaLock className="icon" />
             </div>
             <button>Entrar</button>
         </form>
